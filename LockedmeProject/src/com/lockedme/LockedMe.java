@@ -29,8 +29,8 @@ public class LockedMe
 						break;
 				case 3:deleteFile();
 						break;
-				/*case 4:searchFile();
-						break;*/
+				case 4:searchFile();
+						break;
 				case 5:System.exit(0);
 						break;
 				default:
@@ -127,7 +127,7 @@ public class LockedMe
 			System.out.println("File not found.");
 	}
 
-	/*public static void searchFile()
+	public static void searchFile()
 	{
 		// Code for searching the file
 		String fileName;
@@ -140,6 +140,6 @@ public class LockedMe
 			System.out.println("File is present in the folder....!");
 		else
 			System.out.println("File not found.");
-	}*/
+	}
 
 }
